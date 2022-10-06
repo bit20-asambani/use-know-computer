@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewpoint" content="with=device-width, initial-scale=1.0">
+     <title>knowcomputer</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="photos/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="content.html">CONTENT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Computer Accessories</h1>
+    </section>
+    <!----- Course ---->
+     <section class="content">
+        <h1>Kinds of Computer Accessories</h1>
+        <p>Below are the groups they belong</p>
+        
+        <div class="row">
+            <div class="content-col">
+                 <h3>Input & Output</h3>
+                 <p>An input device transmits data to a computer system for processing, and an output device displays or reproduces the results of that processing. Input devices only allow data to be entered into a computer, whereas output devices only receive data from another device.An output device can receive data from another device and use that data to generate output, but it cannot send data to another device.</p>
+            </div>
+            <div class="content-col">
+                 <h3>Storage</h3>
+                 <p>A storage device is any type of computing hardware used to store, transfer, or extract data files and objects. Storage devices can temporarily and permanently hold and store data. They can be inside or outside of a computer, server, or computing device.</p>
+            </div>
+            <div class="content-col">
+                <h3>Communication</h3>
+                <p>Communications device is any piece of hardware that can transmit data, instructions, and information between a sending and receiving device. A modem is a type of communications device that connects a communications channel to a sending or receiving device, such as a computer.</p>
+            </div>
+        </div>
+    </section>
+    <!---------- facilities----->
+    <section class="facilities">
+        <h1>Storege Devices</h1>
+        <p>let's take a look at the following devices</p>
+        
+        <div class="row">
+            <div class="facilities-col">
+                <img src="photos/memory.jpg">
+                <h3>Memory Card</h3>
+                <p>A memory card is an electronic data storage device used for storing digital information, typically using flash memory. Commonly used for storing photos in digital cameras and for storing and transferring programs and data between handheld computers.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="photos/harddrive.jpg">
+                <h3>Hard Drive</h3>
+                <p>A hard disk, also known as a hard disk drive or hard drive, is a magnetic storage medium used by computers. Hard disks are magnetically coated flat circular plates made of aluminum or glass.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="photos/CD-ROM.png">
+                <h3>Compact Disk</h3>
+                <p>The compact disc (CD) is a digital optical disc data storage format developed jointly by Philips and Sony for storing and playing digital audio recordings.</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!----- Footer ---->
+    
+    <section class="footer">
+        <h4>About</h4>
+        <p>These website only gives you little information you should know about computer accessories.</p>
+        <div class="icons">
+             <i class="fa fa-facebook"></i>
+             <i class="fa fa-twitter"></i>
+             <i class="fa fa-instagram"></i>
+             <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart-o"> by Easy Tutorials</i></p>
+    </section>
+    
+ <!------JavaScript for Toggle menu------->   
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewpoint" content="with=device-width, initial-scale=1.0">
+     <title>knowcomputer</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="photos/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="content.html">CONTENT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Get More Information About Computers</h1>
+    </section>
+    <!---------- blog page content ------>
+    <section class="blog-content">
+        
+        <div class="row">
+            <div class="blog-left">
+                <img src="photos/computer.png">
+                <h2>Get More Information About Computers</h2>
+                <p>A communications device is any piece of hardware that can transmit data, instructions, and information between a sending and receiving device. A modem is a type of communications device that connects a communications channel to a sending or receiving device like a computer. Data is processed as digital signals by computers. Depending on the communications channel, data, instructions, and information are transmitted in either analog or digital form. A continuous electrical wave constitutes an analog signal. A digital signal is made up of individual electrical pulses that represent bits that are grouped together to form bytes.</p>
+                <br>
+                <p> Interspersed throughout the chapters, you’ll find many opportunities to work with the Cisco Packet Tracer tool. Packet Tracer allows you to create networks, visualize how packets flow in the network, and use basic testing tools to determine whether the network would work. When you see this icon, you can use Packet Tracer with the listed file to perform a task suggested in this book. The activity files are available on this book’s CD-ROM; Packet Tracer software is available through the Academy Connection website. Ask your instructor for access to Packet Tracer</p>
+                <br>
+                <p>A storage unit is a component of a computer system that stores the information and instructions to be processed. A storage device is a component of computer hardware that stores information/data in order to process the results of any computational work. A computer cannot run or even boot up without a storage device. In other words, a storage device is hardware that is used for storing, transferring, or extracting data files. It can also temporarily and permanently store information/data.</p>
+                <br>
+                <p>When a computer receives data from an input device (such as a keyboard), it passes through an intermediate stage before being sent to an output device (e.g., monitor). During this stage, a processing device is any device inside a computer that interprets and manipulates incoming data. In the diagram below, for example, the CPU is the processing device.</p>
+                
+                <div class="comment-box">
+                    
+                    <h3>Leave a comment if you find this helpful</h3>
+                    
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment">
+                        </textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>      
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Types Of Computer Devices</h3>
+                <div>
+                    <span>Input Devices</span>
+                    <span>1</span>
+                </div>
+                <div>
+                    <span>Output Devices</span>
+                    <span>2</span>
+                </div>
+                <div>
+                    <span>Communication Devices</span>
+                    <span>3</span>
+                </div>
+                <div>
+                    <span>Storage Devices</span>
+                    <span>4</span>
+                </div>
+                <div>
+                    <span>Internet Of Things Devices</span>
+                    <span>5</span>
+                </div>
+                <div>
+                    <span>Mobile Devices</span>
+                    <span>6</span>
+                </div>
+                <div>
+                    <span>Processing Devices</span>
+                    <span>7</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     
+    <!----- Footer ---->
+    
+    <section class="footer">
+        <h4>About</h4>
+        <p>These website only gives you little information you should know about computer accessories.</p>
+        <div class="icons">
+             <i class="fa fa-facebook"></i>
+             <i class="fa fa-twitter"></i>
+             <i class="fa fa-instagram"></i>
+             <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart-o"> by Know Computers</i></p>
+    </section>
+    
+ <!------JavaScript for Toggle menu------->   
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    
+    </script>
+    
+</body>
+</html>
